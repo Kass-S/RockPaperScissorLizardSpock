@@ -126,7 +126,7 @@ namespace RockPaperScissorLizardSpock.Services
                     }  
 
                 default:
-                    return "Please enter Rock, Paper, Scissor, Lizard, or Spock.\nPlease check your spelling.";     
+                    return "Please enter Rock, Paper, Scissors, Lizard, or Spock.\nPlease check your spelling.";     
 
             }
         }

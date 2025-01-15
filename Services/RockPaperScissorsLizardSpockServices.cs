@@ -10,7 +10,7 @@ namespace RockPaperScissorLizardSpock.Services
         public string PlayGame(string userChoice)
         {
             Random rng = new Random();
-            int CPUChoice = rng.Next(6);
+            int CPUChoice = rng.Next(5);
             string[] CPUArr = ["rock", "paper", "scissors", "lizard", "spock"];
 
             switch(userChoice.ToLower())

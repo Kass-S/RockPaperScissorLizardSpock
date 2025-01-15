@@ -17,7 +17,7 @@ namespace RockPaperScissorLizardSpock.Controllers
         }
 
         [HttpGet]
-        [Route("PlayRPSLS")]
+        [Route("PlayRPSLS/{userChoice}")]
         public string PlayGame(string userChoice)
         {
             return _rockPaperScissorsLizardSpockServices.PlayGame(userChoice);
